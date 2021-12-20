@@ -101,4 +101,39 @@ header button {
     margin-top: -10px;
 }
 /* Fin cartes */
+
+/* Vidéo de présentation */
+.main .video {
+    margin-top: 80px;
+    width: 90%;
+}
+
+.main .video iframe {
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+}
+/* video deprésentation */
 /* Fin section princopale */
+
+/* Pied de page */
+footer {
+    margin-top: 100px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+footer .social-media {
+    display: flex;
+}
+
+footer .social-media p {
+    margin-right: 15px;
+    text-align: center;
+}
+/* Fin pied de page */
